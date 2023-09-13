@@ -22,6 +22,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun MainScreen() {
     val viewModel: TossViewModel = viewModel(factory = VmFactory(application = LocalContext.current.applicationContext))
+
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -29,6 +30,7 @@ fun MainScreen() {
             .pointerInput(Unit) {
                 detectTapGestures {
                     viewModel.animationState.value = AnimationState.Flipping
+                    viewModel.startAudio() // Start audio playback here
                 }
             },
         contentAlignment = Alignment.Center // Align content in the middle
@@ -38,7 +40,7 @@ fun MainScreen() {
             AnimationState.Initial -> {
                 CoinImage(
                     drawableId = R.drawable.tail123,
-                    size = 180.dp,
+                    size = 250.dp,
                     onClick = {
                         viewModel.animationState.value = AnimationState.Flipping
                     },

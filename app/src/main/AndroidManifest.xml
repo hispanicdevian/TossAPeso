@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/tail123"
+        android:icon="@mipmap/toss_peso_logo"
         android:label="Peso Toss"
-        android:roundIcon="@drawable/tail123"
+        android:roundIcon="@mipmap/toss_peso_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.TossAPeso"
         tools:targetApi="31">

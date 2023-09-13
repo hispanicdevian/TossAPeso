@@ -25,7 +25,12 @@ fun MainScreen() {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp),
+            .padding(16.dp)
+            .pointerInput(Unit) {
+                detectTapGestures {
+                    viewModel.animationState.value = AnimationState.Flipping
+                }
+            },
         contentAlignment = Alignment.Center // Align content in the middle
     ) {
 
@@ -43,7 +48,7 @@ fun MainScreen() {
             AnimationState.Flipping -> {
                 FlippingAnimation(
                     modifier = Modifier
-                        .size(180.dp), //Change this for Image size
+                        .size(180.dp), // Change this for Image size
                     viewModel = viewModel
                 )
             }
@@ -60,6 +65,7 @@ fun MainScreen() {
         }
     }
 }
+
 
 @Composable
 fun CustomClickable(

@@ -14,4 +14,4 @@ Coin Toss App (Mxn Peso Version) - Rebuild from my past project TossCoin
 
 # Home/Launch Icon
 
-![TossAPesoDemoHomeImage](https://github.com/ianttta/TossAPeso/assets/135581442/668e1bd6-69d1-4550-9a30-3a47e0c8a8ef)
+![TossAPesoDemoHomeImage](https://github.com/ianttta/TossAPeso/assets/135581442/66384270-72d7-45ff-98ac-6b7d21290443)

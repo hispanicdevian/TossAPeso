@@ -4,7 +4,9 @@ Coin Toss App (Mxn Peso Version) - Rebuild from my past project TossCoin
  - Compose
  - Animation & Sound Effect
 # Features
+
 ![TossAPesoDemo](https://github.com/ianttta/TossAPeso/assets/135581442/16b94426-b9f8-4ec5-8101-1838f40c819b)
+
 # Demo
 - Animation looks a lot more natural on Real Devices, This video is a virtual devices
 

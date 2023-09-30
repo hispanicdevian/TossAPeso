@@ -1,6 +1,5 @@
 # TossAPeso
-Rebuild from my past project TossCoin
-Coin Toss App (Mxn Peso Version)
+Coin Toss App (Mxn Peso Version) - Rebuild from my past project TossCoin
  - MVVM
  - Compose
  - Animation & Sound Effect

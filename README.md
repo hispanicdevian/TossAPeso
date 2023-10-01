@@ -3,6 +3,7 @@ Coin Toss App (Mxn Peso Version) - Rebuild from my past project TossCoin
  - MVVM
  - Compose
  - Animation & Sound Effect
+ - Portrait & Landscape View
  - Logos done by me
  - Animation looks a lot more natural in Real Devices, This Demo was recorded in a virtual devices
 

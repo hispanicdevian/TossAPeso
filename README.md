@@ -1,7 +1,7 @@
 # TossAPeso
 Coin Toss App (Mxn Peso Version) - Rebuild from my past project TossCoin
  - MVVM
- - Compose
+ - Jetpack Compose
  - Animation & Sound Effect
  - Portrait & Landscape View
  - Logos done by me
